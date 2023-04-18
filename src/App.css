@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  width: 100wh;
+  height: 100vh;
+  background-color: aqua;
+}
+.score{
+  padding-top: 50px;
+  font-size: larger;
+}
+.flag-icon{
+     width: 10em;
+     line-height: 10em;
+}
+.buttonCheck button{
+  background-color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+}
+.correct{
+   color:green
+}
+.incorrect{
+  color:red
+}
