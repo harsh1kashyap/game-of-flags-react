@@ -3,6 +3,7 @@ import 'flag-icon-css/css/flag-icon.css';
 import './App.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import Footer from './Footer/Footer';
 
 function App() {
   const [country, setCountry] = useState([]);
@@ -71,7 +72,7 @@ function App() {
 
       <div className='buttonCheck'>
         {country.map((c) => (
-          <button onClick={(e) => checkAnswer(c)}>{c.name}</button>
+          <button  onClick={(e) => checkAnswer(c)}>{c.name}</button>
         ))}
       </div>
 
@@ -86,6 +87,7 @@ function App() {
           </h2>
         ) : null}
       </div>
+      <Footer />
     </div>
   );
 }
